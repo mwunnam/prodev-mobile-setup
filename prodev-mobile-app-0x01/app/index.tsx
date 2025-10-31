@@ -1,6 +1,6 @@
 import { Text, View, StylesSheet } from "react-native";
 
-const styles = StylesSheet ({
+const styles = StylesSheet.create({
   container: {
     backgroundColor: "#90caf9",
   },
