@@ -1,8 +1,9 @@
-import { Text, View, StylesSheet } from "react-native";
+import { Text, View, StyleSheet } from "react-native";
 
-const styles = StylesSheet.create({
+const styles = StyleSheet.create({
   container: {
     backgroundColor: "#90caf9",
+
   },
 
   largeText: {
@@ -10,14 +11,13 @@ const styles = StylesSheet.create({
     color: "#f44336",
     marginBottom: 5,
     fontWeight: "700",
-    fontVariant: ["smal-caps"],
+    fontVariant: ["small-caps"],
   },
 
   mediumText: {
     fontSize: 20,
     color: "#9c27b0",
-    marginBottom: 10,
-    fondWeight: "500",
+    fontWeight: "500",
     textAlign: "right",
   },
 
@@ -27,16 +27,16 @@ const styles = StylesSheet.create({
     fontWeight: "400",
     textAlign: "center",
   },
-});
 
+});
 export default function Index() {
   return (
-    <View>
-      <Text style={styles.largeText}>Typescipt is greate if you practice more</Text>
-      <Text style={styles.mediumText}>React Navite provides you a single codebase for cross platforms</Text>
-      <Text style={styles.samllText}>ALX is awesome</Text>
+    <View style={styles.container}>
+      <Text>Entry Screen - Awesome</Text>
+      <Text style={styles.largeText}>Typescript is greate if you practice more</Text>
+      <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
+      <Text style={styles.smallText}>ALX is awesome</Text>
     </View>
   );
 }
-
 
