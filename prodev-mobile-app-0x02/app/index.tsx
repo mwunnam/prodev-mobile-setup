@@ -60,7 +60,8 @@ const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
 });
-
+assets/images/Logo.png, 
+assets/images/background-image.png
 export default function Index() {
   return (
     <SafeAreaProvider>
